@@ -1,0 +1,222 @@
+/*正文*/
+.container{
+	background: #fff;
+}
+.banner{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 60px;
+}
+.main{
+	padding-bottom: 122px;
+}
+.main img{
+	width: 100%;
+	height: 100%;
+}
+.banner img{
+	width: 2560px;
+	height: 720px;
+	margin: 0 calc(50% - 1280px);
+	/*calc() 函数用于动态计算长度值。css3*/
+}
+.edu_title{
+	font-weight: normal;
+	font-size: 40px;
+	color: #313131;
+	text-align: center;
+	line-height: 96px;
+	height: 96px;
+	width: 480px;
+	margin: 0 auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.solve .edu_title{
+	background-image: url(../img/教育/img_education_features_title.201811061030.png);
+}
+.solve{
+	position: relative;
+	margin-top: -122px;
+}
+.solve_left{
+	background: url(../img/教育/img_education_solution_card.201811061030.jpg) no-repeat;
+	width: 609px;
+	height: 438px;
+	margin-right: 115px;
+	position: relative;
+}
+.solve_img{
+	margin: 65px 0 0 64px;	
+	width: 500px;
+	height: 350px;
+	overflow: hidden;
+}
+.solve_img_box{
+	width: 2000px;
+}
+.solve_img img{
+	width: 500px;
+	height: 350px;	
+	border-radius: 8px;
+	float: left;
+	/*display: block;*/
+}
+.solve_btn div{
+	position: absolute;
+	top: 208px;	
+	width: 64px;
+	height: 64px;
+	cursor: pointer;
+}
+.btn_left{
+	left: 32px;
+}
+.btn_right{
+	right: 17px;
+}
+
+.solve_right{
+	width: 399px;
+	height: 266px;
+	background: url(../img/教育/img_education_solution_color@2x.201811061030.jpg) no-repeat;
+	background-size:100% ;
+	margin-top: 85px;
+	box-sizing: border-box;
+}
+.solve_txt{
+	display: none;
+}
+.solve_txt:first-child{
+	display: block;
+}
+.solve_txt h3{
+	font-size: 36px;
+	color: #313131;
+	font-weight: normal;
+	margin:130px 0 30px;
+	padding-left: 49px;
+}
+.solve_txt p{
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #646464;
+	display: inline-block;
+	padding-left: 38px;
+}
+/*特色方案*/
+.pro_wrap{
+	width: 1440px;
+	margin: 90px auto 0;
+	background: #FFFAE6;
+	border-radius: 24px;
+	padding-bottom: 40px;
+}
+.program .edu_title{
+	background-image:url(../img/教育/img_education_solution_title@2x.201811061030.png) ;
+	position: relative;
+	top: -48px;
+}
+.program_top{
+	text-align: center;
+}
+.program_top img{
+	margin-right: 121px;
+	width: 358px;
+	height: 358px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.top_txt{
+	display: inline-block;
+	vertical-align: middle;
+	width: 520px;
+	height: 178px;
+	text-align: left;
+	background: url(../img/教育/img_education_features_color_01.201811061030.jpg) no-repeat 19px center
+}
+.top_txt h4{
+	font-size: 24px;
+	color: #313131;
+	font-weight: normal;
+	margin: 35px 0 21px;
+}
+.top_txt p{
+	font-size: 16px;
+	color: #646464;
+	line-height: 21px;
+}
+.calender img{
+	width: 1078px;
+	height: 230px;
+	margin: 20px 0 40px 61px;
+}
+.calender_line{
+	height: 10px;
+	border-radius: 5px;
+	background: #FFF4A5;
+}
+.program_middle .top_txt{
+	height: 203px;
+	background: url(../img/教育/img_education_features_color_02.201811061030.jpg)no-repeat 107px center;
+}
+.program_middle .top_txt img{
+	width: 190px;
+	height: 85px;
+	margin-bottom: 30px;
+}
+.program_list{
+	width: 945px;
+	margin: 20px auto 0 ;
+}
+.program_list li{
+	width: 240px;
+	margin-right: 106px;
+	text-align: center;
+}
+.program_list li:last-child{
+	margin-right: 0;
+}
+.program_list img{
+	width: 96px;
+	height: 96px;
+	margin-bottom: 10px;
+}
+.program_list h5{
+	font-size: 20px;
+	color: #313131;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.program_list p{
+	font-size: 14px;
+	color: #959595;
+	line-height: 21px;
+}
+
+/*教学配备*/
+.equipment .pro_wrap{
+	background: #E6F9FF;
+}
+.equipment .edu_title{
+	background-image: url(../img/教育/img_education_equipment_title@2x.201811061030.png);
+}
+.equipment .top_txt{
+	background: url(../img/教育/img_education_equipment_color_01.201811061030.jpg)no-repeat 70px center ;
+}
+.blue_line{
+	background: #CDF3FF;
+	margin-top: 40px;
+}
+/*案例成果*/
+.case{
+	margin-top: 60px;
+}
+.case .edu_title{
+	background-image:url(../img/教育/img_education_case_title.201811061030.png) ;
+}
+.case .solve_txt p{
+	white-space: nowrap;
+}

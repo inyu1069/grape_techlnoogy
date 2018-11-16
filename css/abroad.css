@@ -1,0 +1,123 @@
+.video{
+	margin-top: 60px;
+}
+
+/*图片列表*/
+.img_list{
+	width: 1200px;
+	margin: 40px auto;
+}
+.img_list ul{
+	font-size: 0;
+}
+.img_list li{
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	height: 224px;
+	position: relative;
+}
+.img_list img{
+	width: 400px;
+	height: 224px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*z-index: 1;*/
+}
+.white_border{
+	width: 399px;
+	height: 222px;
+	border: 10px solid #fff;
+	position: absolute;
+	top: -9px;
+	left: -10px;
+	display: none;
+	box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.img_list li:hover{
+	z-index: 2;
+}
+.img_list li:hover .white_border{
+	display: block;
+}
+/*葡萄科技陪伴孩子的成长*/
+.container section{
+	width: 100%;
+	overflow: hidden;	
+	position: relative;
+}
+.container .bg{
+	margin: 0 calc(50% - 1280px);
+	display: block;
+}
+.section_txt{
+	width: 1180px;
+	position: absolute;
+	top:104px ;
+	left:calc(50% - 600px + 20px);
+}
+.section_txt img{
+	height: 34px;
+}
+.section_txt p{
+	margin-top: 21px;
+	font-size: 16px;
+	color: #646464;
+	line-height: 24px;
+}
+
+/*所获奖项*/
+.awards{
+	background: #fff;
+}
+.awards .wrap{
+	width: 1205px;
+}
+.awards ul{
+	padding: 22px 0 51px;
+	font-size: 0;
+}
+.awards ul li{
+	display: inline-block;
+	height: 230px;
+	border-right: 1px solid #EBEBEB;
+}
+.awards ul li:last-child{
+	border-right: none;
+}
+.awards li img{
+	width: 200px;
+}
+.awards li p{
+	font-size: 14px;
+	color: #959595;
+	line-height: 21px;
+	width: 100%;
+	text-align: center;
+}
+
+/*引导全新的家庭教育方式*/
+.family .section_txt p{
+	color: #fff;
+}
+
+/*出货地区*/
+.purple{
+	position: relative;
+}
+.purple .title{
+	width: 1200px;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 600px);
+}
+.purple img{
+	width: 2560px;
+}
+.purple .title h1{
+	color: #fff;
+}
+.purple .title h3{
+	color: #fff;
+}

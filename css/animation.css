@@ -1,0 +1,131 @@
+img{
+	display: block;
+}
+a{
+	color: #000;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+.logo img{
+	margin: 25px 0;
+}
+.header_nav{
+	font-size: 0;
+}
+.header_nav li{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 50px;
+}
+.header_nav a{
+	font-size: 18px;
+	line-height: 100px;
+}
+.header_nav .purple{
+	color:#7C70A0 ;
+}
+.header_nav a:hover{
+	color: #7c70a0;
+}
+.video{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.video_bottom{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 960px);
+}
+/*persons*/
+.persons{
+	width: 100%;
+	height: 3600px;
+	overflow: hidden;
+	position: relative;
+	background: url(../img/动画/persons-bg.png) no-repeat center;
+}
+.persons_wrap{
+	width: 1500px;
+	margin: 0 auto;	
+}
+.person_box{
+	display: none;
+	position: absolute;
+}
+.persons1{
+	top: 0;
+}
+.persons2{
+	top: 1162px;
+}
+.persons3{
+	top: 2364px;
+}
+.person_txt{
+	width: 590px;
+	margin-top: 175px;
+}
+.person_txt img:nth-of-type(1){
+	margin-bottom: 55px;
+}
+.person_txt img:nth-of-type(2){
+	margin-bottom: 17px;
+}
+.person_txt img:nth-of-type(3){
+	margin-bottom: 15px;
+}
+.person_txt img:nth-of-type(4){
+	margin-bottom: 30px;
+}
+.person_pic img{
+	transition: .3s;
+}
+.person_pic img:hover{
+	transform: scale(1.1);
+}
+
+
+
+/*剧情介绍*/
+.story{
+	width: 100%;
+	height: 2194px;
+	overflow: hidden;
+	background: url(../img/动画/movie-bg.jpg) no-repeat center;
+}
+.story_top{
+	margin:290px 60px 60px;
+}
+/*人物轮播*/
+.persons_turn{
+	width: 100%;
+	height: 902px;
+	background: url(../img/动画/cars-bg.png) no-repeat center;
+	background-size:70% auto;
+}
+
+/*尾部图片*/
+.footer_img{
+	width: 100%;
+	height: auto;
+}
+/*尾部*/
+.footer{
+	height: 58px;
+	line-height: 58px;
+	background: #e4e3e3;
+	text-align: center;
+	color: #777;
+}

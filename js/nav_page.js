@@ -1,0 +1,19 @@
+$(function(){
+	$(window).scroll(function(){
+		if($(this).scrollTop()>60){
+			$(".header").fadeOut();
+			$(".nav_page").css({
+				"position":"sticky",
+				"top":"0",
+				"box-shadow":"0 2px 4px 0 rgba(0, 0, 0, 0.1)"
+			});
+		}else{
+			$(".header").fadeIn();
+			$(".nav_page").css({
+				"position":"absolute",
+				"top":"60px",
+				"box-shadow":"none"
+			});
+		}
+	})
+})

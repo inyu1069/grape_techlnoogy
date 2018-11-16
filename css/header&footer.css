@@ -1,0 +1,312 @@
+body{
+	background: #ebebeb;
+}
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/*头部*/
+.header{
+	width: 100%;
+	height: 60px;
+	background: #313131;
+	position: relative;
+	display: block;
+}
+.logo{
+	width: 40px;
+	margin-right: 156px;
+}
+.logo img{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+.nav li{
+	height: 60px;
+	padding: 22px 0;
+	box-sizing: border-box;
+}
+.nav_a{
+	color: #fff;
+	font-size: 16px;
+	padding: 0 40px;
+}
+.nav_a i{
+	width: 25px;
+	height: 4px;
+	border-radius: 2px;
+	background: #fff;
+	margin: 4px auto;
+	display: none;
+}
+.nav_a:hover i{
+	display: block;
+}
+.nav_product_down{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 60px;
+	background: #fff;
+	z-index: 999;
+	display: none;
+	box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.nav_product_down a{
+	width: 200px;
+	height: 200px;
+	margin: 20px 0;	
+	text-align: center;
+	opacity: 0;
+	transform:translateX(-50px) scale(0.2);
+}
+.nav_product_down a:nth-child(2){
+	animation-delay: 0.1s;
+}
+.nav_product_down a:nth-child(3){
+	animation-delay: 0.2s;
+}
+.nav_product_down a:nth-child(4){
+	animation-delay: 0.3s;
+}
+.nav_product_down a:nth-child(5){
+	animation-delay: 0.4s;
+}
+.nav_product_down a:nth-child(6){
+	animation-delay: 0.5s;
+}
+
+/*动画的类*/
+.header_move{
+	animation: move .6s linear forwards;
+}
+@keyframes move{
+	0%{
+		opacity: 0;
+		transform:translateX(-50px) scale(0.2);
+	}
+	80%{
+		opacity: .4;
+		transform:translateX(-150px) scale(0.3);
+	}
+	100%{
+		opacity: 1;
+		transform:translateX(0px) scale(1);
+	}
+}
+
+.nav_product_down figure{
+	position: relative;
+}
+.nav_product_down .new{
+	background: url(../img/葡萄科技官网_-_科技陪伴成长/tag_32_new.201811021722.png) no-repeat;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 64px;
+	height: 32px;
+}
+.nav_product_down figcaption{
+	font-size: 14px;
+	color: #313131;
+	margin-top: 4px;
+}
+.nav_product_down a:hover{
+	box-shadow: 0px 0px 20px 5px #e8ebed;
+}
+.vip{
+	width: 112px;
+}
+.vip img{
+	width: 100%;
+	height: auto;
+	margin-top: 14px;
+}
+
+/*首页外其它页面头部下方导航栏*/
+/*产品页*/
+.nav_page2{
+	width: 100%;
+	height: 60px;
+	position: absolute;	
+	z-index: 99;
+	top: 60px;	
+	box-shadow: none;
+	color:#fff;
+	background: none;
+}
+.nav_page2 .wrap{
+	line-height: 59px;
+	font-size: 16px;
+	padding-left: 20px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.nav_page2 a{
+	display: inline-block;
+	color: #fff;
+}
+/*除产品页零售店导航页面*/
+.nav_page{
+	width: 100%;
+	height: 60px;
+	position: absolute;	
+	top: 60px;
+	z-index: 99;
+	color:#646464;
+	background: #fff;
+}
+.nav_page .wrap{
+	line-height: 60px;
+	font-size: 16px;
+	padding-left: 20px;
+}
+.nav_page a{
+	display: inline-block;
+	color: #646464;
+}
+/*正文标题*/
+.title_left{
+	height: 146px;
+}
+.title_left h1{
+	color: #313131;
+	opacity: 0.1;
+	font-size: 72px;
+	height: 87px;
+	line-height: 87px;
+	letter-spacing: -2px;
+	position: relative;
+	top: 46px;	
+	font-weight: normal;
+}
+.title_left h3{
+	font-size: 32px;
+	color: #646464;
+	position: relative;
+	left: 20px;
+	font-weight: normal;
+}
+.more{
+	float: right;
+	margin-top: 86px;
+	margin-right: 20px;
+	width: 96px;
+	height: 32px;
+	line-height: 14px;
+	font-size: 14px;
+	border-radius: 16px;
+	color: #8B49F6;
+	padding: 10px 25px 10px 15px;
+	box-sizing: border-box;
+	background: #F5F5F5 url(../img/葡萄科技官网_-_科技陪伴成长/icon_16_arrow_right_p.201811021722.png) no-repeat right 5px center;
+}
+
+
+/*尾部*/
+.footer_top{
+	padding: 40px 20px 36px;
+	border-top: 2px solid #e1e1e1;
+	border-bottom: 2px solid #e1e1e1;
+}
+.ft_top_left ul{
+	float: left;
+	margin-right: 55px;
+}
+.ft_top_left ul li{
+	padding: 10px 0px;
+}
+.ft_top_left ul h5 {
+	font-size: 16px;
+	color: #313131;
+}
+.ft_top_left ul a{
+	font-size: 14px;
+	color: #646464;
+}
+.ft_top_left ul a:hover{
+	color: #000;
+}
+.ft_top_left ul img{
+	margin-top: 10px;
+}
+.ft_top_right{
+	text-align: right;
+}
+.ft_top_right h1{
+	font-size: 32px;
+	color: #313131;
+	font-weight: normal;
+}
+.ft_top_right p{
+	font-size: 14px;
+	color: #646464;
+	margin-top: 10px;	
+	line-height: 20px;
+}
+.ft_top_right p:last-child{
+	padding-left: 25px;
+	margin-top:20px;
+	background: url(../img/葡萄科技官网_-_科技陪伴成长/icon_20_location_b.201811021722.png) no-repeat left center;
+}
+
+.footer_bottom{
+	padding: 20px 20px 37px 20px;
+	font-size: 12px;
+	color: #959595;
+	line-height: 20px;
+}
+.footer a{
+	color: #959595;	
+}
+.ft_bottom_end .left a{
+	display: inline-block;
+}
+.footer a:hover{
+	color: #313131;
+}
+.a_img{
+	padding-left: 20px;
+}
+.ft_bottom_end .left a:nth-child(1){
+	background: url(../img/葡萄科技官网_-_科技陪伴成长/police.jpg) no-repeat left center;
+	background-size: 14px 14px;
+}
+.ft_bottom_end .left a:nth-child(2){
+	background: url(../img/葡萄科技官网_-_科技陪伴成长/f5f3976.201811061030.png) no-repeat left center;
+	background-size:14px 14px ;
+}
+
+/*返回顶部*/
+.return_top{
+	position: fixed;
+	z-index: 999;
+	top: 520px;
+	right:50%;
+	margin-right: -700px;
+	width: 64px;
+	height: 64px;
+	background: #fff;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	text-align: center;
+	cursor: pointer;
+}
+.return_top img{
+	margin-top: 8px;
+	width: 26px;
+	height: 26px;
+}
+.return_top p {
+	font-size: 12px;
+	color: #959595;
+	height: 17px;
+	line-height: 17px;
+	margin-top: 3px;
+}
